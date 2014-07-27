@@ -1,6 +1,6 @@
-[![Waiter Logo](https://dl.dropboxusercontent.com/u/106722666/waiter.gif)](https://waiter.herokuapp.com/)
+Waiter is a simple library for estimating wait times and required capacity in web and mobile marketplaces.  Despite its focus, waiter aims to be useful for capacity planning wherever there's a queue coupled with a finite ability to process the queue.
 
- Waiter is a simple library for estimating wait times and required capacity in web and mobile marketplaces.  Despite its focus, waiter aims to be useful for capacity planning wherever there's a queue coupled with a finite ability to process the queue.
+## Example Usage
 ```js
 //For a specified maximum wait time, output the required hourly supply
 var waiter = require('waiter')
@@ -16,7 +16,7 @@ var hourlySupply = waiter.hourlySupply(uberPeakHours, hourlyDemand, peakDemand, 
 ### Web Usage
   
   A hosted version of waiter useful for getting quick estimates is available [here](http://waiter.herokuapp.com). 
-
+[![Waiter Logo](https://dl.dropboxusercontent.com/u/106722666/waiter.gif)](https://waiter.herokuapp.com/)
 ### Installation
 
 ```bash
