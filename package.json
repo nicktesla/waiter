@@ -2,12 +2,24 @@
   "author": "nicktesla",
   "name":"waiter-node",
   "description": "A simple library for estimating parameters in a multi-server queue",
-  "version": "0.1",
+  "version": "0.0.1",
   "repository": {
     "url": "https://github.com/nicktesla/waiter"
   },
   "main": "./lib/waiter",
   "dependencies": {},
+  "devDependencies": { },
+  "keywords": [
+    "single-server queue",
+    "multi-server queue",
+    "M/M/1 queue",
+    "M/M/c queue",
+    "queueing theory",
+    "capacity planning",
+    "wait time estimation",
+    "arrival times",
+    "exponential distribution"
+  ],
   "engines": {
     "node": "*"
   }
