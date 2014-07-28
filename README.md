@@ -56,6 +56,7 @@ $ npm install waiter
 
   * Wait time estimation
   * Capacity planning
+  * Work in system (virtual waiting time)
 
 ### Contributors
 
