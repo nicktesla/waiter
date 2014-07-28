@@ -1,4 +1,4 @@
-waiter = require('./lib/waiter')
+waiter = require('./lib/waiter');
 
 
 //waitTime = function(meanArrTime, hourlyDemand, hourlySupply, speed, min, max, runCount) {
